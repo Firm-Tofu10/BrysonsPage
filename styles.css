@@ -2,6 +2,7 @@ body
 {
 margin-top:20px;
 background-color:teal;
+font-size:18px; ;
 }
 .icon-box.medium {
     font-size: 20px;
@@ -88,13 +89,19 @@ p {
     height: 500px;
     width: 500px;
     justify-content: center;
-    position: flex;
+    position: center;
 }
 .myWork{
     border: 2px;
-    height: 300px;
+    height: 350px;
     width: 500px;
    border-color: red;
    background-color: grey;
-   position: flex;
 }
+.header {
+    padding: 60px;
+    text-align: center;
+    background: slategray;
+    color: white;
+    font-size: 30px;
+  }
