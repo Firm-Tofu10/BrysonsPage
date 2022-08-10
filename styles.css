@@ -1,4 +1,8 @@
-body{margin-top:20px;}
+body
+{
+margin-top:20px;
+background-color:teal;
+}
 .icon-box.medium {
     font-size: 20px;
     width: 50px;
@@ -67,7 +71,7 @@ a, a:active, a:focus {
 }
 
 .text-primary, .text-primary-hover:hover {
-    color: #ff712a !important;
+    color:orange !important;
 }
 
 p {
@@ -76,4 +80,7 @@ p {
 
 .mb-1-6, .my-1-6 {
     margin-bottom: 1.6rem;
+}
+.name {
+    color:orange;
 }
