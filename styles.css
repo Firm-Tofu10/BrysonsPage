@@ -87,6 +87,8 @@ p {
 .me {
     height: 500px;
     width: 500px;
+    justify-content: center;
+    position: flex;
 }
 .myWork{
     border: 2px;
@@ -94,4 +96,5 @@ p {
     width: 500px;
    border-color: red;
    background-color: grey;
+   position: flex;
 }
