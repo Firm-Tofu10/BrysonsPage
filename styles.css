@@ -105,3 +105,31 @@ p {
     color: white;
     font-size: 30px;
   }
+	.school {
+		color: blue;
+		background-color:black;
+		border-color: white;
+		margin-left: 3%;
+		justify-content: center;
+	}
+	.work {
+		color: green;
+		background-color:black;
+		border-color: white;
+		margin-left: 3%;
+		justify-content: center;
+	}
+	.contact {
+		color: orange;
+		background-color:black;
+		border-color: white;
+		margin-left: 3%;
+		justify-content: center;
+	}
+	.about {
+		color: red;
+		background-color:black;
+		border-color: white;
+		margin-left: 3%;
+		justify-content: center;
+	}
