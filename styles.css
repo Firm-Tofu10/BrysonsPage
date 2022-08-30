@@ -89,15 +89,63 @@ p {
     height: 500px;
     width: 500px;
     justify-content: center;
-    position: center;
+    position: relative;
+		left: 40%;
 }
-.myWork{
-    border: 2px;
-    height: 350px;
-    width: 500px;
-   border-color: red;
-   background-color: grey;
+.containerContactMe {
+	border: 2px;
+	height: 350px;
+	width: 500px;
+ border: 4px solid black;
+ background-color: orange;
+ padding: rem2;
+	border-radius: 4rem;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	left: 40%;
 }
+.containerAboutMe {
+	border: 2px;
+	height: 350px;
+	width: 500px;
+ border-color: red;
+ border: 4px solid black;
+ background-color: red;
+ padding: rem2;
+	border-radius: 4rem;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	left: 40%;
+}
+		.containerSchooling{
+			border: 2px;
+			height: 350px;
+			width: 500px;
+		border-color: red;
+		border: 4px solid black;
+		background-color: rgb(43, 118, 237);
+		padding: rem2;
+			border-radius: 4rem;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			left: 40%;
+		}
+		.myWorkContainer{
+			border: 2px;
+			height: 700px;
+			width: 500px;
+		 border: 4px solid black;
+		 background-color: green;
+		 padding: rem2;
+			border-radius: 4rem;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			left: 40%;
+	}
 .header {
     padding: 60px;
     text-align: center;
@@ -105,31 +153,34 @@ p {
     color: white;
     font-size: 30px;
   }
-	.school {
-		color: blue;
+	.schoolBtn {
+		color: rgb(43, 118, 237);
 		background-color:black;
 		border-color: white;
-		margin-left: 3%;
 		justify-content: center;
+		position: relative;
 	}
-	.work {
+	.workBtn {
 		color: green;
 		background-color:black;
 		border-color: white;
-		margin-left: 3%;
 		justify-content: center;
+		position: relative;
 	}
-	.contact {
+	.contactBtn {
 		color: orange;
 		background-color:black;
 		border-color: white;
-		margin-left: 3%;
 		justify-content: center;
+		position: relative;
 	}
-	.about {
+	.aboutBtn {
 		color: red;
 		background-color:black;
 		border-color: white;
-		margin-left: 3%;
 		justify-content: center;
+		position: relative;
+	}
+	.centerAboutMe {
+		left: 50%;
 	}
