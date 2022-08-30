@@ -159,6 +159,8 @@ p {
 		border-color: white;
 		justify-content: center;
 		position: relative;
+		border-radius: 4rem;
+		border: 4px solid white;
 	}
 	.workBtn {
 		color: green;
@@ -166,6 +168,8 @@ p {
 		border-color: white;
 		justify-content: center;
 		position: relative;
+		border-radius: 4rem;
+		border: 4px solid white;
 	}
 	.contactBtn {
 		color: orange;
@@ -173,6 +177,9 @@ p {
 		border-color: white;
 		justify-content: center;
 		position: relative;
+		border-radius: 4rem;
+		border: 4px solid white;
+		
 	}
 	.aboutBtn {
 		color: red;
@@ -180,7 +187,28 @@ p {
 		border-color: white;
 		justify-content: center;
 		position: relative;
+		border-radius: 4rem;
+		border: 4px solid white;
 	}
 	.centerAboutMe {
 		left: 50%;
 	}
+	.navDiv {
+    align-items: left;
+    float: center;
+		display: inline;
+}
+.navUl {
+	list-style: none;
+	align-items: left;
+	float: center;
+	margin: 10px;
+	border-radius:5px;
+	text-align: center;
+	padding: 5px;
+	display: inline;
+}
+.navLi {
+	float: center;
+	display: inline;
+}

@@ -1,9 +1,22 @@
 <div class="header">
 	<h1>Bryson Benson</h1>
 	<p>Full Stack Web Developer</p>
-	<button type="button" class="workBtn">My Work</button><button type="button" class="contactBtn">Contact
-		Me</button><button type="button" class="aboutBtn">About Me</button><button type="button"
-		class="schoolBtn">Schooling</button>
+	<div class="navDiv">
+		<ul class="navUl">
+			<li class="navLi">
+				<a href="#containerContactMe" class="contactBtn">Contact Me</a>
+			</li>
+			<li>
+				<a href="#containerAboutMe" class="aboutBtn">About Me</a>
+			</li>
+			<li>
+				<a href="#containerSchooling" class="schoolBtn">Schooling</a>
+			</li>
+			<li>
+				<a href="#myWorkContainer" class="workBtn">My Projects</a>
+			</li>
+		</ul>
+	</div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
 	integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
@@ -14,7 +27,7 @@
 		<div class="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">
 			<div class="card border-0 shadow">
 				<img class="me" src="Pro.jpg" alt="...">
-				<div class="containerContactMe">
+				<div id="containerContactMe" class="containerContactMe">
 					<div class="mb-4">
 						<h3 class="name" class="h4 mb-0">Bryson Benson (Full Stack Dev)</h3>
 						<span class="text-primary">Contact Info</span>
@@ -39,13 +52,13 @@
 		<div class="col-lg-8">
 			<div class="ps-lg-1-6 ps-xl-5">
 				<div class="mb-5 wow fadeIn">
-					<div class="containerAboutMe">
+					<div id="containerAboutMe" class="containerAboutMe">
 						<h2 class="h1 mb-0 text-primary">About myself</h2>
 						<p>Hello, my name is Bryson Benson I am 24 years old Full Stack Web Developer, I recently graduated from the
 							University Of Utah via there coding boot camp. Some of my hobbies outside of work consist of Rock Climbing
 							and Video Games.</p>
 					</div>
-					<div class="containerSchooling">
+					<div id="containerSchooling" class="containerSchooling">
 						<h2 class="mb-0 text-primary">Schooling</h2>
 
 						<div class="col-sm-6 col-xl-4 mt-4">
@@ -57,7 +70,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="myWorkContainer">
+					<div id="myWorkContainer" class="myWorkContainer">
 						<div class="text-start mb-1-6 wow fadeIn">
 							<h2 class="mb-0 text-primary">Work History</h2>
 						</div>
